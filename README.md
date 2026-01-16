@@ -1,6 +1,1 @@
-# Data Assessment Solution
-
-## How to run
-1. Install Python 3.10+
-2. Run the following command:
-   python solution.py
+Since the task involves forecasting a continuous numerical variable (electricity consumption in MWh), regression-based evaluation metrics were used. Mean Absolute Error (MAE) was chosen because it is easy to interpret and represents the average prediction error in the same units as the target variable. Root Mean Squared Error (RMSE) was also used because it penalizes larger errors more heavily, which is important in energy forecasting scenarios where large deviations during peak demand periods can have significant operational impact.
